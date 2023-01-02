@@ -33,8 +33,6 @@ const Homedata = createSlice({
             }
         },
         deleteArray(state,action){
-            //state.searchArray.splice(action.payload,1)
-            //state.searchArray.splice(action.payload,1)
             return{
                 ...state,
                 searchArray:[...state.searchArray.slice(0,action.payload),...state.searchArray.slice(action.payload+1)]
