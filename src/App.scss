@@ -7,6 +7,7 @@
 body{
   font-family: 'League Spartan',sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .landing{
   header{
@@ -26,6 +27,7 @@ body{
       .list{
         padding-left: 4vw;
         padding-top: 2vh;
+        transition: all 4.5s ;
 
         li{
           display: inline-block;
@@ -75,6 +77,7 @@ body{
     padding: 7vh 10vw;
     background-color: hsl(180, 52%, 96%);
     min-height: 80vh;
+
     li{
       width: 80vw;
       background-color: white;
@@ -83,7 +86,7 @@ body{
       position: relative;
       border-radius: 0.42vw;
       margin-bottom: 2vh;
-      transition:border 0.11s ease ;
+      transition:border-left 0.1s linear ;
       img{
         margin-right: 2vw;
         margin-top: 1.4vh;

@@ -51,7 +51,6 @@ const Landing = () => {
             } 
 
         }
-        console.log(array)
         return(
             <div className='landing'> 
                 <header>
@@ -114,8 +113,6 @@ const Landing = () => {
                         array.map((val,index)=>{
                             return(
                                 <li key={index} >{val} <ClearOutlinedIcon className='icon' onClick={()=>{
-                                    //array.splice(index,1)
-                                    console.log(array)
                                     dispatch(Search.deleteArray(index))
                                 }}/> </li>
                             )
