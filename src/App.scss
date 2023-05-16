@@ -196,10 +196,12 @@ body{
       }
     }
     .major-list{
+      padding: 7vh 5vw;
       li{
         flex-direction: column;
         margin-bottom: 4.2vh;
-        padding: 5.1vh 5vw;
+        padding: 7.6vh 5vw;
+        width: 90vw;
         img{
           position: absolute;
           top: -4vh;

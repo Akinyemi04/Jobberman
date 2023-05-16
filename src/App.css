@@ -184,10 +184,14 @@ body {
   .landing header .white .list li {
     margin-bottom: 1vh;
   }
+  .landing .major-list {
+    padding: 7vh 5vw;
+  }
   .landing .major-list li {
     flex-direction: column;
     margin-bottom: 4.2vh;
-    padding: 5.1vh 5vw;
+    padding: 7.6vh 5vw;
+    width: 90vw;
   }
   .landing .major-list li img {
     position: absolute;
